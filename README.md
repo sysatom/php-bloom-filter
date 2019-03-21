@@ -9,7 +9,7 @@ composer require sysatom/php-bloom-filter
 ### Usage
 
 ```php
-use \Sysatom\BloomFilter();
+use \Sysatom\BloomFilter;
 
 $bf = new BloomFilter(100000, 7);
 
