@@ -1,0 +1,25 @@
+{
+    "name": "sysatom/php-bloom-filter",
+    "description": "A Simple Bloom Filter for PHP",
+    "keywords": ["bloom filter", "bitmap", "murmurhash"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sysatom",
+            "email": "sysatom@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "lastguest/murmurhash": "^2.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sysatom\\": "src/"
+        }
+    }
+}
