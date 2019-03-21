@@ -9,7 +9,7 @@
             "email": "sysatom@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
 		"php": ">=7.1",
         "lastguest/murmurhash": "^2.0"
