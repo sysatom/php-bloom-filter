@@ -1,5 +1,7 @@
 # A Simple Bloom Filter for PHP
 
+[![Build Status](https://travis-ci.org/sysatom/php-bloom-filter.svg?branch=master)](https://travis-ci.org/sysatom/php-bloom-filter)
+
 ### Install
 
 ```bash
@@ -25,7 +27,7 @@ var_dump($bf->lookup('500001'));
 ### Requirements
 
 
-This project requires PHP 7.0 or newer.
+This project requires PHP 7.1 or newer.
 
 ### License
 
