@@ -24,8 +24,19 @@ var_dump($bf->lookup('100000'));
 var_dump($bf->lookup('500001'));
 ```
 
-### Requirements
+### Benchmark
 
+```php
+$bf = new \Sysatom\BloomFilter(100000, 7);
+for ($i = 1; $i <= 100000; $i++) {
+    $bf->add("$i");
+}
+```
+- Total time: 18.4532 s
+- Memory Used (current): 636.12 KB
+- Memory Used (max): 1.63 MB
+
+### Requirements
 
 This project requires PHP 7.1 or newer.
 
